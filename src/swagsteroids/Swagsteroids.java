@@ -1,4 +1,4 @@
-package sweg;
+package swagsteroids;
 
 import java.awt.*;
 import java.applet.Applet;
@@ -50,7 +50,7 @@ class Mineral {
  return false;
 }
 }
-public class Sweg extends Applet implements Runnable {
+public class Swagsteroids extends Applet implements Runnable {
  Thread loadThread;
  Thread loopThread;
  static final int lag=50,lives=3,shotLimit=6,mineralLimit=8;
